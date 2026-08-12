@@ -1,0 +1,32 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "LionCircuits Fabrication Export",
+  "description": "Generate Gerbers, drill files, BOM, position file, IPC-D-356 netlist, and interactive BOM in one click.",
+  "description_full": "LionCircuits adds a single toolbar button to the PCB Editor. Clicking it exports Gerbers and Excellon drill files (LionCircuits' fab-ready naming standard), a BOM for assembly, a BOM for components (supplier quote/procurement), a component position (CPL) file, an IPC-D-356 bare-board test netlist, and an interactive HTML BOM (using InteractiveHtmlBom if installed, otherwise a built-in fallback table). Gerbers and drill files are optionally zipped into a fab-ready package.",
+  "identifier": "com.github.Murali8051.Lioncircuits-PCB-Toolkit",
+  "type": "plugin",
+  "author": {
+    "name": "LionCircuits",
+    "contact": {
+      "web": "https://github.com/Murali8051/Lioncircuits-PCB-Toolkit"
+    }
+  },
+  "maintainer": {
+    "name": "LionCircuits",
+    "contact": {
+      "web": "https://github.com/Murali8051/Lioncircuits-PCB-Toolkit"
+    }
+  },
+  "license": "MIT",
+  "resources": {
+    "homepage": "https://github.com/Murali8051/Lioncircuits-PCB-Toolkit"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "status": "stable",
+      "kicad_version": "7.0",
+      "kicad_version_max": "9.99"
+    }
+  ]
+}
